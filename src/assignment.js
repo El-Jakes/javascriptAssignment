@@ -19,7 +19,7 @@ function sumOfNumbers(arrayOfNumbers) {
         result = result + arrayOfNumbers[i];
     }
     return result;
-    // return arrayOfNumbers.length;
+   
 }
 assignment.sumOfNumbers = sumOfNumbers;
 
@@ -60,7 +60,7 @@ function celsiusToFahrenheit(arrayOfNumbers) {
       fahrenheit = Math.trunc((arrayOfNumbers[i] * 1.8) + 32);
     fahrenheitTemperatures.push(fahrenheit);  
     }
-    // return arrayOfNumbers
+
   return fahrenheitTemperatures;
 }
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
